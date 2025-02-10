@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+    --background: #eee;
+    --black: #333;
+    --header-primary: #3b3e3f;
+}
+
+body {
+    background: var(--background);
+    color: var(--black);
+    position: relative;
+    min-height: 100vh;
+}
+
+@layer components {
+    header {
+        @apply w-full;
+        @apply py-2;
+        @apply px-8;
+        @apply bg-[var(--header-primary)];
+    }
+
+    .spinner {
+        @apply absolute;
+        @apply -translate-x-1/2;
+        @apply -translate-y-1/2;
+        @apply top-2/4;
+        @apply left-1/2;
+    }
+    .spinner > svg {
+        @apply inline;
+        @apply w-8;
+        @apply h-8;
+        @apply animate-spin;
+        @apply fill-white;
+        @apply text-[--gray];
+    }
+}
