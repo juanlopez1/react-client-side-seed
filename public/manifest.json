@@ -1,6 +1,6 @@
 {
-  "short_name": "VoteSeat",
-  "name": "D'Hondt VoteSeat",
+  "short_name": "react-client-side-seed",
+  "name": "React Client Side Seed",
   "icons": [
     {
       "src": "favicon.ico",

@@ -16,7 +16,7 @@
         // "checkJs": true,
         "paths": {
             "@react-client-side-seed/*": ["./src/*"]
-        },
+        }
     },
     "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
     "exclude": ["node_modules", "coverage", "dist"]
